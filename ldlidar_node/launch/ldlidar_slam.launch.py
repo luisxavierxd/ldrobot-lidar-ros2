@@ -118,7 +118,7 @@ def generate_launch_description():
     ld.add_action(fake_odom)
 
     # Call LDLidar launch
-    ld.add_action(ldlidar_launch)
+    # ld.add_action(ldlidar_launch)
 
     # Start RVIZ2
     ld.add_action(rviz2_node)
